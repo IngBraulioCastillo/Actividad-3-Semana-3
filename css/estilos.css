@@ -1,0 +1,121 @@
+.menu {
+    background-color: red;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block
+   
+}
+nav ul li a{
+    text-decoration: none;
+    color: yellow;
+    font-size: 20px;
+    text-align: center;
+    display: inline-block;
+    padding: 10px 20px;
+
+}
+a:hover{
+    background-color: black;
+    color: white;
+}
+
+
+
+h2{
+  background-color: black;
+  color: white;
+  padding: 5px;
+  margin: 0px;
+  text-align: center;
+
+}
+
+.listas{
+    background-color: gray;
+    color: white;
+    padding: 5px;
+    font-size: 20px;
+    list-style-position: inside;
+}
+
+.no_ordenada {
+    list-style-type:circle;
+}
+
+.ordenada {
+    list-style-type:upper-roman;
+}
+
+.listas li, .listas dt, .listas dd{
+    margin-top: 5px;
+}
+
+.tabla{
+    font-size: 20px;
+    padding: 7px;
+    background-color: ;
+}
+
+.tabla tr{
+    background-color: gray;
+    color: white;
+}
+
+caption, tr th, tr td {
+    padding: 4px;
+    
+}
+
+section{
+    background-color: gray;
+}
+
+div{
+    position: relative;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    margin: 15px;
+    padding: 1px;
+    width: 150px;
+    height: 100px;
+    display: inline-block;
+}
+
+.formulario{
+    border: 1px solid;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+label {
+    font-size: 12;
+    display: block;
+    width: 100%;
+}
+
+input{
+    margin-bottom: 20px;
+    width: 30%;
+}
+.condiciones{
+    text-align: center;
+    font-size: 20px;
+    margin: 0;   
+    padding-top: 30px; 
+}
+
+.termino{
+    border: solid 1px;
+    overflow: scroll;
+    width: 50%;
+    height: 300px;
+    display:inline-block;
+
+}
